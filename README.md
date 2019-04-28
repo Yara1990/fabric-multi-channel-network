@@ -130,7 +130,7 @@ peer chaincode query -C channelall -n sacc -c '{"Args":["get","a"]}'
 
 And on Org3 Terminal,
 
-# peer chaincode query -C channelall -n sacc -c '{"Args":["get","a"]}'
+ peer chaincode query -C channelall -n sacc -c '{"Args":["get","a"]}'
 
 Instantiate and Interact with Chaincode on Channel12
 Now we instantiate the same SACC on Channel12.
